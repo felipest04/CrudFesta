@@ -1,7 +1,7 @@
 import java.util.*
 
 val expressaoRegular = Regex("[0-5]")
-val expressaoNome = Regex("^[A-Za-zÀ-ÿ\\s]+$") // Letras, incluindo acentos e espaços
+val expressaoNome = Regex("^[A-Za-zÀ-ÿ\\s]+$")
 
 var listaConvidados: MutableList<Convidado> = mutableListOf()
 
